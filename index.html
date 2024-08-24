@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HINDRAPRASTA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <style>
+    .merriweather {
+      font-family: "Merriweather", serif;
+      font-style: normal;
+    }
+    .montserrat {
+      font-family: "Montserrat", sans-serif;
+      font-optical-sizing: auto;
+      font-style: normal;
+    }
+
+    @keyframes fade-in-left {
+      0% {
+        opacity: 0;
+        transform: translateX(-10%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    @keyframes fade-in-right {
+      0% {
+        opacity: 0;
+        transform: translateX(10%);
+      }
+      50% {
+        opacity: 0;
+        transform: translateX(10%);
+      }
+      100% {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+
+    .fade-in-left {
+      animation: fade-in-left 1s ease-in-out;
+    }
+
+    .fade-in-right {
+      animation: fade-in-right 2s ease-in-out;
+    }
+  </style>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="w-screen h-screen overflow-x-hidden flex justify-center items-center">
+  <main class="container flex flex-col lg:flex-row justify-center items-center lg:space-x-8 py-8">
+    <img src="./Logo.png" alt="HINDRAPRASTA Car Repair Shop" class="w-80 fade-in-left">
+    <section class="p-8 fade-in-right">
+      <h1 class="text-4xl font-bold montserrat mb-4">
+        HINDRAPRASTA
+      </h1>
+      <p class="merriweather">
+        Kami adalah bengkel mobil lokal di Wagir, Kabupaten Malang. Kami dapat menangani berbagai macam masalah pada mobil Anda, mulai dari mesin, transmisi, differential, hingga kelistrikan. Kami mengutamakan kualitas kerja, kepuasan pelanggan, dan berkomitmen untuk memberikan hasil yang memuaskan Anda.
+      </p>
+      <br>
+      <div class="flex flex-col items-start justify-center opacity-50 montserrat space-y-4 text-start">
+        <a target="_blank" class="flex items-start hover:underline hover:text-blue-800 space-x-4" href="https://wa.me/6285102421381">
+          <svg height="24px" width="24px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#060606;} </style> <g> <path class="st0" d="M94.811,21.696c-35.18,22.816-42.091,94.135-28.809,152.262c10.344,45.266,32.336,105.987,69.42,163.165 c34.886,53.79,83.557,102.022,120.669,129.928c47.657,35.832,115.594,58.608,150.774,35.792 c17.789-11.537,44.218-43.058,45.424-48.714c0,0-15.498-23.896-18.899-29.14l-51.972-80.135 c-3.862-5.955-28.082-0.512-40.386,6.457c-16.597,9.404-31.882,34.636-31.882,34.636c-11.38,6.575-20.912,0.024-40.828-9.142 c-24.477-11.262-51.997-46.254-73.9-77.947c-20.005-32.923-40.732-72.322-41.032-99.264c-0.247-21.922-2.341-33.296,8.304-41.006 c0,0,29.272-3.666,44.627-14.984c11.381-8.392,26.228-28.286,22.366-34.242l-51.972-80.134c-3.401-5.244-18.899-29.14-18.899-29.14 C152.159-1.117,112.6,10.159,94.811,21.696z"></path> </g> </g></svg>
+          <h6>
+            +62 851-0242-1381
+          </h6>
+        </a>
+        <a target="_blank" class="flex items-start hover:underline hover:text-blue-800 space-x-4" href="https://www.google.com/maps/place/Bengkel+Mobil+Hindraprasta/@-8.0081575,112.5648023,17z/data=!3m1!4b1!4m6!3m5!1s0x2e789cd48bead413:0xed08e94c1f159b77!8m2!3d-8.0081575!4d112.5673772!16s%2Fg%2F11q24d4_dm?entry=ttu&g_ep=EgoyMDI0MDgyMS4wIKXMDSoASAFQAw%3D%3D">
+          <svg height="24px" width="24px" version="1.1" id="_x32_" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 512 512" xml:space="preserve" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <style type="text/css"> .st0{fill:#060606;} </style> <g> <path class="st0" d="M256,0C160.798,0,83.644,77.155,83.644,172.356c0,97.162,48.158,117.862,101.386,182.495 C248.696,432.161,256,512,256,512s7.304-79.839,70.97-157.148c53.228-64.634,101.386-85.334,101.386-182.495 C428.356,77.155,351.202,0,256,0z M256,231.921c-32.897,0-59.564-26.668-59.564-59.564s26.668-59.564,59.564-59.564 c32.896,0,59.564,26.668,59.564,59.564S288.896,231.921,256,231.921z"></path> </g> </g></svg>
+          <h6>
+            Pandanrejo, Kec. Wagir, Kab. Malang
+          </h6>
+        </a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
